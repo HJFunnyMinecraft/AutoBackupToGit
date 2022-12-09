@@ -1,0 +1,11 @@
+name: AutoBackupToGit
+version: 1.0.0
+main: com.hecode.abtogit.PluginMain
+author: HECODE
+description: 自动备份服务器至 Git 远端
+commands:
+  backuptogit:
+    description: 立即开始备份任务
+    usage: /<command>
+    permisson: abtogit.command.backuptogit
+    permisson-message: 你没有权限执行此命令

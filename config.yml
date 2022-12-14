@@ -1,5 +1,0 @@
-# Delay before the first backup
-BackupFirstDelay: 600
-
-# Delay between two backup events
-BackupCyclePeriod: 3600
